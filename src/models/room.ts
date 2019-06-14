@@ -1,6 +1,8 @@
 import Point from "./point";
 
 export default interface Room {
+  // 房间id
+  id?: string;
   // 开始坐标
   start: Point;
   // 结束坐标

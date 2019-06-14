@@ -123,8 +123,8 @@ export default class Home extends Vue {
   pmax = 5000;
   room: Room = {
     start: { x: 0, y: 0 },
-    end: { x: 0, y: 0 },
-    name: "",
+    end: { x: 10, y: 10 },
+    name: "101",
     capacity: 0
   };
   addRoomRules = {
